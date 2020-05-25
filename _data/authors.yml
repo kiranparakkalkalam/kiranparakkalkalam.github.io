@@ -1,0 +1,11 @@
+# Sample Authors
+# Remove file or replace with your own
+
+Kiran Parakkalkalam:
+  name: Kiran Parakkalkalam
+  picture: /images/kiran_standing.JPG
+  twitter: "@kirankaladharan"
+  links:
+    - title: Twitter
+      url: https://twitter.com/kirankaladharan
+      icon: fab fa-twitter-square

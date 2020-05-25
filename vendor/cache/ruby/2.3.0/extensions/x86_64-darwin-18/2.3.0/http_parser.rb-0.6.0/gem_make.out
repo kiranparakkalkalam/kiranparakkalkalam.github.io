@@ -1,0 +1,19 @@
+current directory: /Users/kiran/workspace/misc/websites/so-simple-theme/vendor/cache/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/kiran/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20200405-64014-bfelnn.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kiran/workspace/misc/websites/so-simple-theme/vendor/cache/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/kiran/workspace/misc/websites/so-simple-theme/vendor/cache/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ryah_http_parser.c
+compiling ruby_http_parser.c
+linking shared-object ruby_http_parser.bundle
+ld: warning: directory not found for option '-L/usr/local/Cellar/libyaml/0.2.1/lib'
+ld: warning: directory not found for option '-L/usr/local/Cellar/libyaml/0.2.1/lib'
+ld: warning: directory not found for option '-L/usr/local/Cellar/libyaml/0.2.1/lib'
+
+current directory: /Users/kiran/workspace/misc/websites/so-simple-theme/vendor/cache/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20200405-64014-m1os5k
