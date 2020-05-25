@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-25T14:41:48+05:30</updated><id>http://localhost:4000/atom.xml</id><title type="html">Kiran P</title><subtitle>Software Developer | Bangalore</subtitle><author><name>Kiran P</name><email>pkiran.kala@gmail.com</email></author><entry><title type="html">Merkel Tree</title><link href="http://localhost:4000/merkel-tree/" rel="alternate" type="text/html" title="Merkel Tree" /><published>2020-04-05T00:00:00+05:30</published><updated>2020-04-05T00:00:00+05:30</updated><id>http://localhost:4000/merkel-tree</id><content type="html" xml:base="http://localhost:4000/merkel-tree/">&lt;p&gt;Merkel trees also known as &lt;strong&gt;Hash Trees&lt;/strong&gt; are used for data verification and synchronisation. Its a tree where each &lt;em&gt;non-leaf node&lt;/em&gt; is the &lt;strong&gt;collated hash of all its children&lt;/strong&gt;. Most of the implementation of Merkel tree is binary [i.e two child nodes under the parnet node], but  can have as many child nodes possible. 
+Merkel Trees are extremly useful in cases where you want to have data integrity check on large body of data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/merkel_tree.png&quot; alt=&quot;image info&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;working&quot;&gt;Working&lt;/h2&gt;
+
+&lt;p&gt;Starting from the leaf nodes, start calculating the hash and then go up until the &lt;strong&gt;root node&lt;/strong&gt;. Hash of the root node can be used as the &lt;em&gt;fingerprint of the data stored.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hash-function&quot;&gt;Hash Function&lt;/h2&gt;
+
+&lt;p&gt;Usually &lt;strong&gt;SHA-2&lt;/strong&gt; is used for hashing. If you are really want you can have your own hash function for the nodes.&lt;/p&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;Merkel Trees finds its application in the following areas:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Merkel trees are useful in distributed systems where you want to have a really synched data across all the systems.&lt;/li&gt;
+  &lt;li&gt;It can be used to check inconsistencies. We just have to check the hash of the  root for that. This is extremely helpful in case of large body of data.&lt;/li&gt;
+  &lt;li&gt;Its used in Blockchain to check the integrity of the transactions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;complexities&quot;&gt;Complexities&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Space: 					O(n)&lt;/li&gt;
+  &lt;li&gt;Searching: 				O(logn)&lt;/li&gt;
+  &lt;li&gt;Traversal: 				O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion:				O(logn)&lt;/li&gt;
+  &lt;li&gt;Deletion: 				O(logn)&lt;/li&gt;
+  &lt;li&gt;Synchronization:	O(logn)&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Kiran P</name><email>pkiran.kala@gmail.com</email></author><summary type="html">Merkel trees also known as Hash Trees are used for data verification and synchronisation. Its a tree where each non-leaf node is the collated hash of all its children. Most of the implementation of Merkel tree is binary [i.e two child nodes under the parnet node], but can have as many child nodes possible. Merkel Trees are extremly useful in cases where you want to have data integrity check on large body of data.</summary></entry></feed>
