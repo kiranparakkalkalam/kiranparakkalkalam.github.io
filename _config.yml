@@ -1,13 +1,13 @@
 # Site Info
-title:              "Sreejith Ramakrishnan"
-description:        "Freeflowing thoughts"
+title:              "Kiran parakkalkalam"
+description:        "My musings"
 google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
 # Author Info
-author_name:        "Sreejith Ramakrishnan"
-author_email:       sreejith.r44@gmail.com
-author_gravatar:    941dcb69815094c2d5a79185206f628d # Gravatar md5 hash
-twitter_username:   locomunkey
+author_name:        "Kiran Parakkalkalam"
+author_email:       pkiran.kala@gmail.com
+author_gravatar:    e9ceb9857ff29bb75d0399113b12a19f
+twitter_username:   kiranparak 
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
